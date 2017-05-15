@@ -1,0 +1,64 @@
+body{
+    background: url("img/bg1.jpg") no-repeat 0px 0px;
+    background-size: 100% 100%;
+    height:635px;
+}
+.content {
+    width: 60%;
+    margin: 20px auto 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    //border: 1px solid red;
+}
+.content h1 {
+    text-align: center;
+    font-family: "黑体","隶书","楷书","宋体",sans-serif;
+    color: chocolate;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.content #temp {
+    width: 100%;
+    //border: 1px solid green;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 3px;
+    color: whitesmoke;
+}
+.content #temp img{
+    height: 20px;
+    margin-top: 3px;
+}
+.content #other ul li {
+    float: left;
+    list-style: none;
+    margin-right: 2px;
+   // border: dotted 1px #f23145;
+    text-align: center;
+    padding: 10px;
+    filter: alpha(opacity = 60);
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    color: chocolate;
+    font-family: "黑体","隶书", "楷书", "宋体", sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: gainsboro;
+}
+.content #other ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.content p{
+    color: gray;
+    font-weight: bolder;
+}
+.content .one {
+    margin-left: 25%;
+}
+.content #temp strong {
+    font-size: 30px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
